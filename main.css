@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input,
+button {
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: rgb(3, 3, 72);
+}
+
+button:hover {
+    background-color: rgb(139, 139, 184);
+}
+
+.mensagem-resultado {
+    display: none;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    padding: 8px;
+}
+
+.erro {
+    background-color: red;
+}
